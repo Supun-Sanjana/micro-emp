@@ -26,6 +26,9 @@ export default function EmployeeDashboard() {
       const data = await res.json();
       setEmployees(data);
     }
+
+    console.log(res);
+    
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
