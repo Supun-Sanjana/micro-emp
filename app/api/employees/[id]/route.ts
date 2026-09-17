@@ -24,7 +24,7 @@ export async function PUT(request: Request, context: { params: Promise<{ id: str
       data: {
         firstName: data.firstName,
         lastName: data.lastName,
-        email: data.email,
+        phoneNumber: data.phoneNumber,
         designation: data.designation,
         branch: data.branch,
       }
