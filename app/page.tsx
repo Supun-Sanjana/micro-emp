@@ -67,6 +67,7 @@ export default function EmployeeDashboard() {
     <div className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <h1 className="text-3xl font-bold text-gray-900">Employee Management System</h1>
+        <button onClick={() => console.log('Test button clicked')}>Test</button>
 
         <div className="bg-white p-6 rounded-lg shadow-sm border">
           <h2 className="text-xl font-semibold mb-4">{editingId ? 'Edit Employee' : 'Add New Employee'}</h2>
