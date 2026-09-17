@@ -30,6 +30,7 @@ export default function EmployeeDashboard() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log('CLICKED')
     const isEditing = editingId !== null;
     const url = isEditing ? `/api/employees/${editingId}` : '/api/employees';
     const method = isEditing ? 'PUT' : 'POST';
